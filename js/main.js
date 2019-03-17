@@ -25,7 +25,7 @@ function init() {
   camera.position.set(0, 10, 60);
 
   // モデルとモーションの読み込み準備
-  var modelFile = "./mmd/uzuki.pmx";
+  var modelFile = '/mmd/uzuki.pmx';
   var onProgress = function(xhr) {};
   var onError = function(xhr) {
     console.log("load mmd error");
