@@ -16,22 +16,22 @@
 	</head>
 
 	<body>
-		<script src="../build/three.js"></script>
+		<script src="js/three.min.js"></script>
 
-		<script src="js/libs/mmdparser.min.js"></script>
-		<script src="js/libs/ammo.js"></script>
+		<script src="js/mmdparser.min.js"></script>
+		<script src="js/ammo.js"></script>
 
-		<script src="js/loaders/TGALoader.js"></script>
-		<script src="js/loaders/MMDLoader.js"></script>
-		<script src="js/effects/OutlineEffect.js"></script>
-		<script src="js/animation/CCDIKSolver.js"></script>
-		<script src="js/animation/MMDPhysics.js"></script>
-		<script src="js/animation/MMDAnimationHelper.js"></script>
+		<script src="js/TGALoader.js"></script>
+		<script src="js/MMDLoader.js"></script>
+		<script src="js/OutlineEffect.js"></script>
+		<script src="js/CCDIKSolver.js"></script>
+		<script src="js/MMDPhysics.js"></script>
+		<script src="js/MMDAnimationHelper.js"></script>
 
-		<script src="js/controls/OrbitControls.js"></script>
+		<script src="js/OrbitControls.js"></script>
 
-		<script src="js/libs/stats.min.js"></script>
-		<script src="js/libs/dat.gui.min.js"></script>
+		<script src="js/stats.min.js"></script>
+		<script src="js/dat.gui.min.js"></script>
 
 		<script>
 
@@ -97,8 +97,8 @@
 				}
 
 
-				var modelFile = 'models/mmd/miku/miku_v2.pmd';
-				var vmdFiles = [ 'models/mmd/vmds/wavefile_v2.vmd' ];
+				var modelFile = 'mmd/miku/miku_v2.pmd';
+				var vmdFiles = [ 'mmd/vmds/wavefile_v2.vmd' ];
 
 				helper = new THREE.MMDAnimationHelper( {
 					afterglow: 2.0
